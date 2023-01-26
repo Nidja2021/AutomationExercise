@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+    <parameter name="browser" value="chrome" />
+    <test name="AutomationExercise Tests">
+        <classes>
+            <class name="com.automationexercise.testCases.TC_Register_001" />
+        </classes>
+    </test>
+</suite>
